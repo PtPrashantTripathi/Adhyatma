@@ -1,0 +1,82 @@
+/*body{
+    color: #FFF;
+    font-size: 100%;
+	padding: 3% 3% 15%;
+}
+.container{
+  background: #000;
+  width: 100%;
+  max-width: 480px;
+  min-width: 320px;
+  margin: 2em auto 0;
+  padding: 1.5em;
+}
+p{
+  display: block;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: #eee;
+  padding: 1.5em 0 0.5em;
+  margin: 1.5em 0;
+  position: relative;
+}
+*/
+/* Button Menus */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;  
+}
+
+body {
+    background: #000 url(../images/dark_hardwood.jpg) repeat;
+    color: #FFF;	
+	text-align: center;
+    font-size: 100%;
+    padding: 50px;
+}
+/* Containers */
+
+.container { 	
+	/*! background-color: #ffF; */
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	border: 1px solid #FFFFFF;
+	border-radius: 4px; 
+	margin: 2% auto;
+	padding: 0 2%;
+	max-width: 580px;
+	display: block;
+
+}
+
+/* Button Menus */
+
+ul.button-menu {
+    /*! font-size: .7em; */ 
+	margin: 2% auto;
+	max-width: 580px;
+
+}
+ul.button-menu li {
+    float: left;
+    list-style: none;
+    margin: 1.5%;
+    opacity: 1;
+    text-align: center;
+    width: 22%;
+    /*! height: 100px; */
+}
+ul.button-menu li a {
+    color: #FFF;
+    display: block;
+    padding: 10% 0;
+    text-decoration: none;
+}
+ul.button-menu li a img { 
+	max-width: 50%;
+    /*! height: 100px; */
+}
+ul.button-menu li a span {
+    display: block;
+    padding-top: 10%;
+}
