@@ -1,27 +1,3 @@
-/*body{
-    color: #FFF;
-    font-size: 100%;
-	padding: 3% 3% 15%;
-}
-.container{
-  background: #000;
-  width: 100%;
-  max-width: 480px;
-  min-width: 320px;
-  margin: 2em auto 0;
-  padding: 1.5em;
-}
-p{
-  display: block;
-  border-width: 2px 0;
-  border-style: solid;
-  border-color: #eee;
-  padding: 1.5em 0 0.5em;
-  margin: 1.5em 0;
-  position: relative;
-}
-*/
-/* Button Menus */
 *{
     margin: 0;
     padding: 0;
@@ -52,7 +28,7 @@ body {
 /* Button Menus */
 
 ul.button-menu {
-    /*! font-size: .7em; */ 
+    font-size: .7em; 
 	margin: 2% auto;
 	max-width: 580px;
 
