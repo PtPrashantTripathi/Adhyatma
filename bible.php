@@ -12,8 +12,10 @@
 	<br><hr><br>
 	<h2>Ephesians 5,25-26 :</h2>
 	<p>For the Lord GOD will help me; therefore shall I not be confounded: therefore have I set my face like a flint, and I know that I shall not be ashamed..</p>
-	<br><hr><br>
+</div>
+<div class="container summary"> 
 	<h2>Summary</h2>
+	<hr>
 	<p>Confess whatever is making you feel shame, guilt and regret. Let them go because you have been forgiven. God wants to help you. Take advantage of His words, bearing in mind that He is with you, at every step on the way.</p>
 </div>
 <?php

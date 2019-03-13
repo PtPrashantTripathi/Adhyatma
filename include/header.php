@@ -7,6 +7,7 @@
 </head>
 <body>
 <header>
+	<br>
 	<a href="/">
 			<img src="img/adhyatma.png" style="height:100px;max-width: 95%;"/>
 	</a>

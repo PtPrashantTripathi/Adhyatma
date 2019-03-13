@@ -1,25 +1,27 @@
 <?php
 	include 'include/db_config.php';
-	include 'include/header.php';
 ?>
-
-<h1>How Are You?</h1>
-<div class="main-container">
-	<ul class="button-menu">
-<?php
-	$result = mysql_query("SELECT * FROM `mental_states`");
-	while($row = mysql_fetch_array($result)) {
-	echo '<li style="background-color:#'.$row['color'].'">
-			<a href="/reason.php?mood='.$row['mood'].'&color='.$row['color'].'&id='.$row['pms_id'].'">
-				<img src="/img/'.strtolower($row['pms_name']).'.png">
-				<span>'.$row['pms_name'].'</span>
-			</a>
-		</li>';
-	}
-?>		
-	</ul>
-</div>
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adhyatma</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div style="background-image: url('img/bg.jpg');
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;"></div>
+<a href="/feeling.php">
+  <div class="hero-text">
+	<img src="img/adhyatma.png" style="height:100px;max-width: 83%;">
+	<h1 style="font-size:40px">A Emotion Engine</h1>
+    <h3>Customized Religious Book</h3>
+  </div>
+</a>
 <?php
 	include 'include/footer.php';
 ?>
