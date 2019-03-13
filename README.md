@@ -1,12 +1,12 @@
-An Integrated Approach for Development of Emotion Engine Driven by User Input Vector to Enhance the Spiritual Health of Upcoming Generation through Customized Religious Book
+#An Integrated Approach for Development of Emotion Engine Driven by User Input Vector to Enhance the Spiritual Health of Upcoming Generation through Customized Religious Book
 
-**1**** Udit Narayan Bera **,** 2 ****Prakriti Kapoor** 
+**1** **Udit Narayan Bera**, **2** **Prakriti Kapoor** 
 
-1_DIC Fellow, Incubation Center, SAIT Jabalpur,_ [_unbiitg@gmail.com_](mailto:unbiitg@gmail.com)_, +918839096105_
+**1_DIC Fellow, Incubation Center, SAIT Jabalpur,_ [_unbiitg@gmail.com_](mailto:unbiitg@gmail.com)_, +918839096105_**
 
-2_Assistant Professor, Dept. of Computer Science and Engineering, SAIT Jabalpur_
+**2_Assistant Professor, Dept. of Computer Science and Engineering, SAIT Jabalpur_**
 
-[_prakriti.kapoor@hotmail.com_](mailto:prakriti.kapoor@hotmail.com)_, +919131008892_
+**[_prakriti.kapoor@hotmail.com_](mailto:prakriti.kapoor@hotmail.com)_, +919131008892_**
 
 *_Corresponding Author_
 
@@ -16,18 +16,17 @@ In this work we intend to develop an emotion engine which is driven by user inpu
 
 **Keywords:** _Spiritual Health, Mind Mapping, AI, Spiritual Values_
 
-1. 1Introduction:
+##1 Introduction:
 
 In today&#39;s world, life is full of stress, anger, restlessness and anxiety [**1, 2, 3**] and we don&#39;t know how to find the solutions to all our problems and therefore we need a mechanism through which we can achieve the peaceful and spiritual state of mind [**4, 5, 6**]. With our work we are proposing a very subtle and innovative solution by developing an Emotion Engine which will work according to the current need or the state of mind of a person by simply providing the summary and teachings from various religious books available. However in the present scenario people usually go to priest or some dharma guru to find solutions. Achieving mental peace nowadays with lack of time and energy and to refer such huge religious books, finding the exact verse or slokas from them is a very tedious job [**7**]. So to overcome such difficulties our idea will try to suffice and soothe the mind of the present generation. Electronic products are always accompanied with manual and working book where all the information regarding working of the product in normal and malfunctioning condition is clearly mentioned. Religious books can be treated as life manual where information about how to live life or how to react under various emotional circumstances is prescribed. In order to provide the solution for them, we have tried to develop a mechanism leading towards development of a webapp which can easily overcome the conventional problems arise due to huge size of religious books.
 
-1. 2Design and Development:
+##2 Design and Development:
 
 The emotion engine is driven by text mined input vector provided by different users. Since we are trying to present the solution of various emotions of human being based on slokas and verses of religious book, a tentative list of such emotions are jotted below. Table 2 describes the primary emotions where as Table 1 deals with the probable reason of those primary emotions. Relationships between primary emotions with their reasons are also illustrated at Table 1. It may be found from the Table 2 that the primary emotions are all negative like Anger, Sadness, and Frustration etc. There are no positive emotions like happiness. We have intentionally designed the emotion engine to deal with problems related to negative feelings.
 
-1.
-  1. 2.1List of Mental States:
+##2.1 List of Mental States:
 
-Table 1: _List of mental states_
+##Table 1: _List of mental states_
 
 | **Sl. No** | **States** | **Type** | **Sl. No** | **States** | **Type** |
 | --- | --- | --- | --- | --- | --- |
@@ -82,10 +81,9 @@ Table 1: _List of mental states_
 | **91** | Startled | **-** | **99** | Worried | **-** |
 | **92** | Submissive | **+** | **100** | Worthless | **-** |
 
-1.
-  1. 2.2Primary Mental States:
+##2.2 Primary Mental States:
 
-Table 2: _Primary Mental States and their relationship with Table 1 states_.
+##Table 2: _Primary Mental States and their relationship with Table 1 states_.
 
 | **Sl. No** | **States** | **Relationship with previous Table** |
 | --- | --- | --- |
@@ -101,8 +99,7 @@ Table 2: _Primary Mental States and their relationship with Table 1 states_.
 | 10 | BLANK | **1, 17, 43, 61, 96** |
 | 11 | _Unused states_ | **59, 62, 77, 88, 90 [**_disqualify under above 10 states_**]** |
 
-1.
-  1. 2.3Work Flow:
+##2.3 Work Flow:
 
 | **Step 1:** | User will be asked to select any one of the primary emotions or mood available at Table 2.  |
 | --- | --- |
@@ -110,8 +107,7 @@ Table 2: _Primary Mental States and their relationship with Table 1 states_.
 | **Step 3:** | Now the emotion engine will show the list of probable solutions based on available slokas or verses from the religious book being referred.   |
 | **Step 4:** | A brief summary of all the slokas or verses available after Step 3 will also be provided, in case user likes to only read the summary rather than reading and finding slokas/Verses related to their present mental and emotional state in the webApp.  |
 
-1.
-  1. 2.4Illustration:
+##2.4 Illustration:
 
 | **Step 1:** | Suppose a user has selected _option 5_ from Table 1 which is **GUILT.**   |
 | --- | --- |
@@ -119,15 +115,15 @@ Table 2: _Primary Mental States and their relationship with Table 1 states_.
 | **Step 3:** | Now the emotion engine will show related verses which deals with **GUILT** due to **SHAME**. _Example:_ If the religious book is Bible the following verses will be popping at user screen. **John 1.9:**&quot;If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness&quot; [8] **Micah 7.19:**&quot;He will have compassion upon us; he will subdue our iniquities, and thou wilt cast all their sins into the depth of the sea&quot; [9] **Ephesians 5, 25-26:**&quot;Christ loved the church and gave himself up for her to make her holy, cleansing her by the washing with water through the world&quot; [10] **Isaiah 50.7:**&quot;Because the Sovereign Lord helps me, I will not be disgraced. Therefore have I set my face like flint and I know I will not be put to shame&quot; [11]  |
 | **Step 4:** | Now **Summary** will be provided as below:Confess whatever is making you feel shame, guilt and regret. Let them go because you have been forgiven. God wants to help you. Take advantage of His words, bearing in mind that He is with you, at every step on the way. |
 
-1. 3Conclusion:
+##3 Conclusion:
 
 With the advancement of technology, people of twentieth century are not so familiar with religious books. We have proposed an emotion engine algorithm to build a web app interface which will work based on the user emotional input vector. Work flow with example has been described. Around hundred emotions are taken care of to prepare the algorithm. The proposed algorithm is able to represent solutions for various emotional states based on the religious books.
 
-1. 4Acknowledgement:
+##4 Acknowledgement:
 
 This work was supported by Ministry of Human Recourse and Development, Govt. of India under Design Innovation Center Project Scheme.
 
-1. 5References:
+##5 References:
 
 | **[1]** | Paul Susic MA Licensed Psychologist Candidate, &quot;_Stress Management: What can you do_?&quot; St. Louis Psychologist and Counseling Information and Referral. Archived from the original on January 27th , 2019. |
 | --- | --- |
