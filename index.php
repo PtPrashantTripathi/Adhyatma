@@ -11,7 +11,7 @@
 	while($row = mysql_fetch_array($result)) {
 	echo '<li style="background-color:#'.$row['color'].'">
 			<a href="/reason.php?mood='.$row['mood'].'&color='.$row['color'].'&id='.$row['pms_id'].'">
-				<img src="/img/'.$row['pms_name'].'.png">
+				<img src="/img/'.strtolower($row['pms_name']).'.png">
 				<span>'.$row['pms_name'].'</span>
 			</a>
 		</li>';

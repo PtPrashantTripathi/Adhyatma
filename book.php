@@ -3,7 +3,7 @@
 	include 'include/header.php';
 ?>
 
-<h1>Which book whould you like to prefer?</h1>
+<h1>Which book would you like to prefer?</h1>
 <div class="main-container">
 	<ul class="button-menu" style="max-width: 1000px;">
 		<li style="background-color:orange;">
@@ -19,9 +19,9 @@
 			</a>
 		</li>
 		<li style="background-color:green;">
-			<a href="kuran.php?<?php echo 'id='.$_GET['ss_id'].'&mood='.$_GET['mood'];?>">
-				<img src="img/kuran.png" style="height:100px"/>
-				<span>Kuran</span>
+			<a href="quran.php?<?php echo 'id='.$_GET['ss_id'].'&mood='.$_GET['mood'];?>">
+				<img src="img/quran.png" style="height:100px"/>
+				<span>Quran</span>
 			</a>
 		</li>
 		<li style="background-color:red;">
