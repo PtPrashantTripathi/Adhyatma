@@ -7,8 +7,7 @@
 <div class="main-container">
 	<ul class="button-menu">
 <?php
-	/*$ss_id=mysql_query("SELECT `ss_id` FROM `connection` WHERE '".$_GET['id']."'");*/
-	$result = mysql_query("SELECT * FROM `sub_states` WHERE `ss_id` IN (9, 41, 42 )");
+	$result = mysql_query("SELECT *  FROM `sub_states` WHERE `ss_id` IN (SELECT `ss_id` FROM `connection` WHERE `pms_id`='".$_GET['id']."')");
 	while($row = mysql_fetch_array($result)) {
 	echo '
 		<li style="background-color:#'.$_GET['color'].';">
