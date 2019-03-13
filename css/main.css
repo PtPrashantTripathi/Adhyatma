@@ -33,7 +33,7 @@ body {
     color: #FFF;	
 	text-align: center;
     font-size: 100%;
-    padding: 50px;
+    padding: 10px;
 }
 /* Containers */
 
@@ -78,5 +78,15 @@ ul.button-menu li a img {
 }
 ul.button-menu li a span {
     display: block;
-    padding-top: 10%;
+    padding: 1%;
+    background-color: black;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
