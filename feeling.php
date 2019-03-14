@@ -3,7 +3,7 @@
 	include 'include/header.php';
 ?>
 
-<h1>How Are You?</h1>
+<h1>How are you feeling?</h1>
 <div class="main-container">
 	<ul class="button-menu">
 <?php

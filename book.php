@@ -25,9 +25,9 @@
 			</a>
 		</li>
 		<li style="background-color:red;">
-			<a href="gurubani.php?<?php echo 'id='.$_GET['ss_id'].'&mood='.$_GET['mood'];?>">
-				<img src="img/gurubani.png" style="height:100px"/>
-				<span>Gurubani</span>
+			<a href="gurugranthsahib.php?<?php echo 'id='.$_GET['ss_id'].'&mood='.$_GET['mood'];?>">
+				<img src="img/gurugranthsahib.png" style="height:100px"/>
+				<span>Guru Granth Sahib</span>
 			</a>
 		</li>
 	</ul>

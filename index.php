@@ -18,7 +18,7 @@
 <a href="/feeling.php">
   <div class="hero-text">
 	<img src="img/adhyatma.png" style="height:100px;max-width: 83%;">
-	<h1 style="font-size:40px">A Emotion Engine</h1>
+	<h1 style="font-size:40px">An Emotion Engine</h1>
     <h3>Customized Religious Book</h3>
   </div>
 </a>

@@ -5,7 +5,7 @@
 <br>
 <br>
 <br>
-<h1>Sorry Gurabani are currently not available</h1>
+<h1>Sorry Gurabani is currently not available</h1>
 <br>
 <br>
 <br>
