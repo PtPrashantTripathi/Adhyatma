@@ -1,22 +1,12 @@
 # Adhyatma
 
-<An Integrated Approach for Development of Emotion Engine Driven by User Input Vector to Enhance the Spiritual Health of Upcoming Generation through Customized Religious Book
+>An Integrated Approach for Development of Emotion Engine Driven by User Input Vector to Enhance the Spiritual Health of Upcoming Generation through Customized Religious Book
 
-**1** **Udit Narayan Bera**, **2** **Prakriti Kapoor** 
-
-**1_DIC Fellow, Incubation Center, SAIT Jabalpur,_ [unbiitg@gmail.com](mailto:unbiitg@gmail.com)_, +918839096105_**
-
-**2_Assistant Professor, Dept. of Computer Science and Engineering, SAIT Jabalpur_**
-
-**[prakriti.kapoor@hotmail.com](mailto:prakriti.kapoor@hotmail.com)_, +919131008892_**
-
-*_Corresponding Author_*
-
-**Abstract:**
+## Abstract
 
 In this work we intend to develop an emotion engine which is driven by user input vector. This generation as well as upcoming generations find it very difficult to read religious books due to unavailability of time and lack of interest in reading such books. Our objective is to provide a web-App tool which will be able to represent knowledge of religious books in a very precise and compact manner. In this paper more than 100 emotions mostly negative in nature have been depicted and been taken care in designing the algorithm. The developing interface will indeed help to enhance the spiritual values, rejuvenate energy, bring positivity, and provide the most probable solution to the existing problems of stress, anxiety and restlessness.
 
-**Keywords:** _Spiritual Health, Mind Mapping, AI, Spiritual Values_
+**Keywords:** `Spiritual Health`, `Mind Mapping`, `AI`, `Spiritual Values`
 
 ## 1 Introduction:
 
